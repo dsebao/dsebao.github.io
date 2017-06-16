@@ -1,0 +1,100 @@
+.a-right {
+  text-align: right;
+}
+.a-left {
+  text-align: left;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.animar {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+body {
+  background: #1C1C1C;
+  font-family: 'Raleway';
+  font-size: 13px;
+  color: #EAEAEA;
+}
+#main {
+  text-align: center;
+}
+.logo {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  font-size: 45px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  font-weight: 300;
+}
+.logo strong {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+.logo-so{
+  background: url(images/logo-so.png);
+  width: 103px;
+  height: 103px;
+  margin: 0 auto 5px;
+}
+
+.sub{
+  line-height: 18px;
+}
+
+ul.sociales {
+  text-align: center;
+  margin: 130px auto 0;
+}
+ul.sociales li {
+  display: inline-block;
+  margin: 0 10px;
+}
+ul.sociales li a {
+  background-image: url(images/sociales.png);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+ul.sociales li a:hover {
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+ul.sociales li .fb {
+  background-position: 6px 0;
+}
+ul.sociales li .tw {
+  background-position: -45px 0;
+}
+ul.sociales li .gh {
+  background-position: -99px 0;
+}
+ul.sociales li .ln {
+  background-position: -151px 0;
+}
+ul.sociales li .mail {
+  background-position: -202px 0;
+}
+.smalltext {
+  color: #8A8A8A;
+  margin-top: 60px;
+}
+@media screen and (max-width: 754px) {
+  .logo {
+    margin-top: 20px;
+  }
+}
+
